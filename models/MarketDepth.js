@@ -7,6 +7,14 @@ const MarketDepthSchema = new Schema({
         type: String,
         required: true
     },
+    method: {
+        type: String,
+        required: true
+    },
+    sequence: {
+        type: String,
+        required: true
+    },
     time: {
         type: String,
         required: true
